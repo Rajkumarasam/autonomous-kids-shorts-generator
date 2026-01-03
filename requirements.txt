@@ -1,50 +1,20 @@
-# Core LLM and ML Dependencies
-llama-cpp-python==0.2.90
-transformers==4.36.2
-torch==2.1.2
-torchaudio==2.1.2
-
-# Image and Video Generation
-diffusers==0.25.1
-Pillow==10.1.0
-opencv-python==4.8.1.78
-imageio==2.33.1
-imageio-ffmpeg==0.4.9
-
-# Text-to-Speech
-piper-tts==1.2.0
-
-# Google APIs
-google-api-python-client==1.12.8
-google-auth-oauthlib==1.2.0
-google-auth-httplib2==0.2.0
-
-# Web Framework
-Flask==3.0.0
-Werkzeug==3.0.1
-
-# Data Processing and Utilities
-numpy==1.24.3
-pandas==2.1.3
-requests==2.31.0
-python-dotenv==1.0.0
-
-# Audio Processing
-librosa==0.10.0
-soundfile==0.12.1
-scipy==1.11.4
-
-# Video Processing
-moviepy==1.0.3
-pydub==0.25.1
-
-# Utilities
-tqdm==4.66.1
-pyyaml==6.0.1
-setuptools==69.0.2
-wheel==0.42.0
-
-# Optional: Development and Testing
-pytest==7.4.3
-black==23.12.0
-flake8==6.1.0
+llama-cpp-python
+torch
+diffusers
+transformers
+accelerate
+safetensors
+Pillow
+opencv-python
+numpy
+imageio
+soundfile
+librosa
+scipy
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+python-dotenv
+pyyaml
+tqdm
+requests
